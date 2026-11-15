@@ -1978,9 +1978,9 @@
    "Runs compared": "L1 R1 − L1 R2",
    "Profit effect ($)": 77625,
    "Conclusion": "The City earns more because of evening trade and a larger market.",
-   "Evidence quality": "Good",
+   "Evidence quality": "Descriptive",
    "Question": "Which location earns most?",
-   "Strategic reading": "Same strategy, different market: the City's evening trade and larger market raised the ceiling."
+   "Strategic reading": "Same strategy, different market: the City's evening trade and larger market lifted profit."
   },
   {
    "ID": "E2",
@@ -1988,10 +1988,10 @@
    "What changed": "Campus at parity vs City at a premium",
    "Runs compared": "L1 R3 − L1 R1",
    "Profit effect ($)": -246125,
-   "Conclusion": "Low rent and 5-star customers cannot offset a small, price-sensitive market.",
-   "Evidence quality": "Good",
+   "Conclusion": "Low rent and 5-star customers did not offset a small, price-sensitive market here; the run missed its target by $5,911.",
+   "Evidence quality": "Descriptive",
    "Question": "Can the cheapest site win on low price?",
-   "Strategic reading": "Cost leadership failed where $1 vending machines and price-sensitive students capped the price. A Five Forces problem, not an execution problem."
+   "Strategic reading": "Cost leadership narrowly missed where $1 vending machines and price-sensitive students capped the price. Without the failed Year 3 evening test it might have reached the target."
   },
   {
    "ID": "E3",
@@ -1999,10 +1999,10 @@
    "What changed": "Location only (both roast + organic)",
    "Runs compared": "L2 R4 − L2 R5",
    "Profit effect ($)": 115745,
-   "Conclusion": "Location sets the ceiling; strategy decides how close you get.",
-   "Evidence quality": "Good",
+   "Conclusion": "With the same best strategy, the City outperformed the Suburb.",
+   "Evidence quality": "Descriptive",
    "Question": "City or Suburb with the same best strategy?",
-   "Strategic reading": "Even with the best strategy, location sets the ceiling; strategy decides how close you get to it."
+   "Strategic reading": "Better observed City performance with the same strategy, not a proven maximum for each location."
   },
   {
    "ID": "E4",
@@ -2077,7 +2077,7 @@
    "Runs compared": "L2 R5 − L1 R2",
    "Profit effect ($)": 185247,
    "Conclusion": "Larger lift in the Suburb; about $24,000 of the gain is pay and training tuning.",
-   "Evidence quality": "Good",
+   "Evidence quality": "Descriptive",
    "Question": "Roast + organic in the Suburb?",
    "Strategic reading": "Quality investments paid even more where customers value locally roasted coffee. About $24,000 of this gain came from pay and training tuning."
   },
@@ -2133,7 +2133,7 @@
    "Question": "Choosing a site or market",
    "What changed": "Pick the largest market with evening demand",
    "Runs compared": "E1, E2, E3",
-   "Conclusion": "Low rent cannot fix a small market"
+   "Conclusion": "Low rent did not fix a small market in my runs"
   },
   {
    "ID": 2,
@@ -2181,7 +2181,7 @@
    "Question": "Own stores",
    "What changed": "Open early and at the maximum; stop in the final year",
    "Runs compared": "E13, E14",
-   "Conclusion": "Expect a profit dip first; yearly feedback will look bad"
+   "Conclusion": "Expect a profit dip first; a Year 5 Emerging opening was not tested"
   }
  ]
 }

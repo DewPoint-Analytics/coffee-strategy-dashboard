@@ -18,9 +18,9 @@
 
 | | Principle | The evidence |
 |:-:|---|---|
-| **1** | **Choose the market before the tactics** | The City Centre out-earned the University Campus by **$246,125**. Low rent could not rescue a small, price-sensitive market. |
+| **1** | **Choose the market before the tactics** | The City Centre out-earned the University Campus by **$246,125**. The Campus narrowly missed its target. |
 | **2** | **Differentiate only where customers pay for it** | Roasting our own beans added **+$583,995** in Mature Markets and cost **−$157,785** in Emerging ones. Same roaster, opposite answers. |
-| **3** | **In a growing market, speed is the moat** | Opening Emerging stores faster added **+$952,776**, after trailing for two years first. |
+| **3** | **In a growing market, start early** | Opening Emerging stores faster added **+$952,776**, after trailing for two years first: the best of the schedules tested. |
 
 <p align="center">
   <b>152%</b> of target in Level 1 &nbsp;·&nbsp; <b>193%</b> in Level 2 &nbsp;·&nbsp; <b>250%</b> in Level 3 ($12.5M)
@@ -38,9 +38,9 @@ Each run kept what worked and tested one new idea: faster openings, roasting mov
 
 ## 🔬 The Decision Lab: what each choice was worth
 
-<p align="center"><img src="site-lab.png" alt="Decision Lab: 14 controlled tests ranked by their effect on five-year profit" width="100%"></p>
+<p align="center"><img src="site-lab.png" alt="Decision Lab: 14 decision comparisons ranked by their effect on five-year profit" width="100%"></p>
 
-The simulation is deterministic: the same decisions always give the same result. So changing **one** decision between two runs measures its exact value. Fourteen tests, from **+$952,776** (open stores faster) to **−$246,125** (pick the campus).
+The simulation is deterministic: the same decisions always give the same result. So where only **one** decision changed, the difference between two runs isolates its effect (four location comparisons are descriptive). Fourteen comparisons, from **+$952,776** (open stores faster) to **−$246,125** (pick the campus).
 
 <details>
 <summary><b>More from the dashboard</b> (performance, scorecard, playbook)</summary>
@@ -67,7 +67,7 @@ The simulation is deterministic: the same decisions always give the same result.
 | Section | What you'll find |
 |---|---|
 | **Performance** | All 15 runs against their targets, year-by-year profit, averages by level |
-| **Decision Lab** | 14 controlled tests ranked by profit impact: what changed, what happened, what it means |
+| **Decision Lab** | 14 decision comparisons ranked by profit impact: what changed, what happened, what it means |
 | **Level 3 Replay** | Runs 1–5 step by step, from $10.6M to $12.5M |
 | **People · Planet · Profit** | Every tested choice scored against a triple-bottom-line intent |
 | **Playbook** | Seven decision rules, with the evidence and when they might not hold |
@@ -75,7 +75,7 @@ The simulation is deterministic: the same decisions always give the same result.
 ## 🧪 Method, briefly
 
 - Every figure comes from the game's own result screens. Nothing is estimated.
-- Each later run copied an earlier one exactly and changed one decision, so the profit difference is that decision's exact effect in the game.
+- Each later run was paired with an earlier one. Where only one decision changed and conditions were otherwise identical, the profit difference isolates that decision's effect in the game.
 - The location tests (E1–E3, E10) also differ slightly in pay, training or promotion, so treat them as good rather than perfectly clean comparisons.
 - The game is a simplification: real customers, rivals and capital limits are messier. Read the findings as decision principles, not forecasts.
 

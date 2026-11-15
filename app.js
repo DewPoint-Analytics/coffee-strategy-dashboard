@@ -66,7 +66,7 @@ function renderLevels(){let a=['L1','L2','L3'].map(l=>{let z=D.runs.filter(x=>x.
 function renderImpact(){let a=[...D.experiments].sort((x,y)=>Math.abs(y['Profit effect ($)'])-Math.abs(x['Profit effect ($)'])),max=Math.max(...a.map(x=>Math.abs(x['Profit effect ($)'])));
  $('#impactAxis').innerHTML='<div class="axis-zero"></div><span class="axis-side neg">← PROFIT LOST</span><span class="axis-side pos">PROFIT GAINED →</span>'+a.map((x,i)=>{let v=x['Profit effect ($)'],w=Math.max(4,Math.abs(v)/max*43);return `<button class="impact ${v>=0?'pos':'neg'} ${x.ID===state.experiment.ID?'active':''}" data-id="${x.ID}" aria-label="${x.ID}: ${x.Question} ${signed(v)}" style="--y:${8+i*6.5}%;--w:${w}%;--delay:${i*35}ms"><span>${x.ID} · ${signed(v)}</span></button>`}).join('');
  $$('.impact').forEach(el=>{el.onclick=()=>{state.experiment=D.experiments.find(x=>x.ID===el.dataset.id);renderImpact()}});
- let x=state.experiment,v=x['Profit effect ($)'],q=x['Evidence quality']==='Good'?'Good evidence (location test)':'Clean one-variable test';
+ let x=state.experiment,v=x['Profit effect ($)'],q=x['Evidence quality']==='Descriptive'?'Descriptive comparison (other settings differed)':'Clean one-variable test';
  $('#decisionStory').innerHTML=`<span class="pill">${x.ID} · ${x.Pillar} · ${q}</span><h3>${x.Question}</h3><div class="effect">${signed(v)}</div><p><b>What changed:</b> ${x['What changed']}</p><p><b>What happened:</b> ${x.Conclusion}</p><div class="why"><small>RUNS COMPARED</small><p>${x['Runs compared']}</p><small>WHAT IT MEANS</small><p>${x['Strategic reading']}</p></div>`}
 
 /* ---------- Level 3 replay ---------- */
