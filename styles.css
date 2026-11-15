@@ -144,3 +144,4 @@
 @media(prefers-reduced-motion:reduce){.cup-journey .latte::before,.cup-journey .latte .blob{display:none}}
 
 .qr-only{display:block;margin:0 auto;border-radius:12px;pointer-events:none;user-select:none;-webkit-user-drag:none;-webkit-touch-callout:none}
+[hidden]{display:none!important}
