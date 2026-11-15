@@ -83,10 +83,19 @@ The simulation is deterministic: the same decisions always give the same result.
 
 | File | Purpose |
 |---|---|
+| `LICENSE` | Intellectual property notice (all rights reserved) |
 | `index.html`, `styles.css`, `app.js` | The site (plain HTML, CSS and JavaScript, no build step) |
 | `data.json` | Every figure on the page |
 | `report.html` → `Coffee_Shop_Simulation_Report.pdf` | The field report |
-| `` | README images and animations |
+| `*.png`, `*.gif` | README images and animations |
+
+## ©️ Intellectual property
+
+© 2026 Shabnam Mohammed Sameer (DewPoint Analytics). **All rights reserved.**
+
+You're welcome to view the site, read the report, link to it, and quote short extracts with credit. Copying, republishing, adapting, submitting any part as your own academic work, or using it to train AI models is not permitted without written permission. See [`LICENSE`](LICENSE) for the full notice.
+
+*Coffee Shop Inc.* is a simulation by Sim Institute / Harvard Business Impact. This is an independent analysis of my own runs and is not affiliated with or endorsed by them.
 
 ---
 

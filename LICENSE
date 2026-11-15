@@ -1,21 +1,35 @@
-MIT License
+INTELLECTUAL PROPERTY NOTICE
 
-Copyright (c) 2026 (Dr.) SHAB
+Copyright (c) 2026 Shabnam Mohammed Sameer (DewPoint Analytics). All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository and the website published from it, including the field report,
+written analysis, charts, dashboard design, illustrations, source code and the
+compiled data, are the original work of the author and are protected by copyright
+under the Copyright Act 1987 (Malaysia) and international copyright law.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+YOU MAY
+  - view the website and read the report;
+  - link to the website or to this repository;
+  - quote short extracts for commentary, review, teaching or research, provided
+    you credit "Shabnam Mohammed Sameer (DewPoint Analytics)" and link to the source.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+YOU MAY NOT, without prior written permission
+  - copy, republish, redistribute or sell any part of this work;
+  - modify, adapt or create derivative works from it;
+  - submit any part of it, in whole or in part, as your own academic work;
+  - use it to train or fine-tune machine-learning or AI models.
+
+No licence is granted by making this repository public. Viewing and forking on
+GitHub are permitted only to the extent required by GitHub's Terms of Service.
+
+THIRD-PARTY MATERIAL
+  - Coffee Shop Inc. is a business simulation published by Sim Institute /
+    Harvard Business Impact. Its name, scenario and game screens belong to their
+    owners. This project is an independent analysis of the author's own runs and
+    is not affiliated with or endorsed by them.
+  - Fonts are used under the SIL Open Font License.
+  - The cover image of the field report was created with an AI image tool and
+    edited by the author.
+
+PERMISSIONS
+  To request permission, open an issue on this repository.
