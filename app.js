@@ -98,7 +98,7 @@ function exportCSV(){let h=['Level','Run','Label','Strategy (one line)','Game to
 
 /* ---------- public visitor counts (GoatCounter; cached up to 4 hours; hidden until available) ---------- */
 function visitorCounts(){const base='https://shabcoffee.goatcounter.com/counter/',get=p=>fetch(base+p+'.json').then(r=>r.ok?r.json():null).catch(()=>null);
- get('TOTAL').then(t=>{if(t&&t.count){let el=$('#visits');el.querySelector('b').textContent=t.count;el.hidden=false}});
+ get('TOTAL').then(t=>{if(t&&t.count){let el=$('#visits');el.querySelector('b').textContent=t.count;el.lastChild.textContent=t.count==='1'?' visitor so far':' visitors so far';el.hidden=false}});
  get('/report-scan').then(r=>{if(r&&r.count){let el=$('#reportCount');el.textContent='Scanned '+r.count+(r.count==='1'?' time':' times');el.hidden=false}})}
 visitorCounts();
 
