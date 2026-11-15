@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/"><img src="banner.png" alt="What 15 runs taught me: a coffee business simulation played as controlled experiments" width="100%"></a>
+  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/?ref=github"><img src="banner-animated.gif" alt="What 15 runs taught me: three china cups with latte art blooming and fading" width="100%"></a>
 </p>
 
 <p align="center">
-  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/"><img alt="Live site" src="https://img.shields.io/badge/%E2%98%95%20Live%20site-open%20the%20dashboard-b5652f?style=for-the-badge"></a>
-  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/report.html"><img alt="Field report" src="https://img.shields.io/badge/%F0%9F%93%84%20Field%20report-23%20pages-2a1f19?style=for-the-badge"></a>
+  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/?ref=github"><img alt="Live site" src="https://img.shields.io/badge/%E2%98%95%20Live%20site-open%20the%20dashboard-b5652f?style=for-the-badge"></a>
+  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github"><img alt="Field report" src="https://img.shields.io/badge/%F0%9F%93%84%20Field%20report-23%20pages-2a1f19?style=for-the-badge"></a>
   <img alt="Runs that beat target" src="https://img.shields.io/badge/runs%20beating%20target-14%20of%2015-6f8f72?style=for-the-badge">
 </p>
 
@@ -58,9 +58,9 @@ The simulation is deterministic: the same decisions always give the same result.
 
 ## 📄 The field report
 
-<p align="center"><a href="https://shab-analytics.github.io/coffee-strategy-dashboard/report.html"><img src="report-preview.png" alt="Pages from the field report: Grow Early, Differentiate Where It Pays" width="100%"></a></p>
+<p align="center"><a href="https://shab-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github"><img src="report-preview.png" alt="Pages from the field report: Grow Early, Differentiate Where It Pays" width="100%"></a></p>
 
-**Grow Early, Differentiate Where It Pays**: a 23-page business-journal style write-up with 15 exhibits, Porter's Five Forces, a VRIO test, break-even maths and an honest section on where my judgement was wrong. [Read it here →](https://shab-analytics.github.io/coffee-strategy-dashboard/report.html)
+**Grow Early, Differentiate Where It Pays**: a 23-page business-journal style write-up with 15 exhibits, Porter's Five Forces, a VRIO test, break-even maths and an honest section on where my judgement was wrong. [Read it here →](https://shab-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github)
 
 ---
 
