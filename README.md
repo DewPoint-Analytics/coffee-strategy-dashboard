@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/?ref=github"><img src="banner-animated.gif" alt="What 15 runs taught me: three china cups with latte art blooming and fading" width="100%"></a>
+  <a href="https://shab-analytics.github.io/coffee-strategy-dashboard/?ref=github"><img src="banner-heart.gif" alt="What 15 runs taught me: a heart latte beating in a gold-rimmed china cup" width="100%"></a>
 </p>
 
 <p align="center">
