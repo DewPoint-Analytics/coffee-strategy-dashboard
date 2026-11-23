@@ -5,6 +5,8 @@
 <p align="center">
   <a href="https://dewpoint-analytics.github.io/coffee-strategy-dashboard/?ref=github"><img alt="Live site" src="https://img.shields.io/badge/%E2%98%95%20Live%20site-open%20the%20dashboard-b5652f?style=for-the-badge"></a>
   <a href="https://dewpoint-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github"><img alt="Field report" src="https://img.shields.io/badge/%F0%9F%93%84%20Field%20report-23%20pages-2a1f19?style=for-the-badge"></a>
+  <a href="https://dewpoint-analytics.github.io/3DCoffeeHub/?ref=dashboard-readme"><img alt="3D café" src="https://img.shields.io/badge/%F0%9F%8F%A0%203D%20Coffee%20Hub-step%20inside-6f8f72?style=for-the-badge"></a>
+  <img alt="Runs that beat target" src="https://img.shields.io/badge/runs%20beating%20target-14%20of%2015-6f8f72?style=for-the-badge">
   <img alt="Runs that beat target" src="https://img.shields.io/badge/runs%20beating%20target-14%20of%2015-6f8f72?style=for-the-badge">
 </p>
 
