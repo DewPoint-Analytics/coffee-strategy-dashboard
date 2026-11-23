@@ -58,7 +58,7 @@ The simulation is deterministic: the same decisions always give the same result.
 
 <p align="center"><a href="https://dewpoint-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github"><img src="report-preview.png" alt="Pages from the field report: Grow Early, Differentiate Where It Pays" width="100%"></a></p>
 
-**Grow Early, Differentiate Where It Pays**: a 23-page business-journal style write-up with 15 exhibits, Porter's Five Forces, a VRIO test, break-even maths and an honest section on where my judgement was wrong. [Read it here →](https://dewpoint-analytics.github.io/coffee-strategy-dashboard/report.html?ref=github)
+**Grow Early, Differentiate Where It Pays**: a 23-page business-journal style write-up with 15 exhibits, Porter's Five Forces, a VRIO test, break-even maths and an honest section on where my judgement was wrong. That little square is a portal. Go on, give it a scan
 
 ---
 
