@@ -99,8 +99,12 @@ function exportCSV(){let h=['Level','Run','Label','Strategy (one line)','Game to
 /* ---------- public visitor counts (GoatCounter; cached up to 4 hours; hidden until available) ---------- */
 function visitorCounts(){const base='https://shabcoffee.goatcounter.com/counter/',get=p=>fetch(base+p+'.json').then(r=>r.ok?r.json():null).catch(()=>null);
  const show=n=>{let el=$('#visits');el.querySelector('b').textContent=Number(n).toLocaleString('en-US');el.lastChild.textContent=Number(String(n).replace(/,/g,''))===1?' view':' views';el.hidden=false};
- fetch('https://abacus.jasoncameron.dev/hit/dewpoint-analytics.github.io/coffee-dashboard-views').then(r=>r.ok?r.json():Promise.reject()).then(j=>show(j.value))
-  .catch(()=>get('TOTAL').then(t=>{if(t&&t.count)show(t.count.replace(/,/g,''))}));
+ const timed=(u,pick)=>Promise.race([fetch(u).then(r=>r.ok?r.json():Promise.reject()).then(j=>{const v=pick(j);if(v==null||isNaN(v))throw 0;return v}),new Promise((_,x)=>setTimeout(x,6000))]);
+ /* every page open is counted by two free services at once, so one being down does not hide the number */
+ const abacus=timed('https://abacus.jasoncameron.dev/hit/dewpoint-analytics.github.io/coffee-dashboard-views',j=>j.value);
+ const capi=timed('https://api.counterapi.dev/v1/dewpoint-analytics/coffee-dashboard-views/up',j=>j.count);
+ abacus.then(show).catch(()=>capi.then(show).catch(()=>get('TOTAL').then(t=>{if(t&&t.count)show(t.count.replace(/,/g,''))})));
+ capi.catch(()=>{});
  get('/report-scan').then(r=>{if(r&&r.count){let el=$('#reportCount');el.textContent='Scanned '+r.count+(r.count==='1'?' time':' times');el.hidden=false}})}
 visitorCounts();
 
